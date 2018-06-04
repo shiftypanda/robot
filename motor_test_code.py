@@ -11,7 +11,12 @@ robot = CamJamKitRobot()
 robot.forward()
 
 # wait for 1 seconds
+time.sleep(2)
+
+robot.backward()
+
 time.sleep(1)
+
 
 # turn the motors off
 robot.stop()
