@@ -4,9 +4,9 @@ import time
 from gpiozero import CamJamKitRobot
 from gpiozero.pins.pigpio import PiGPIOFactory
 
-factory = PiGPIOFactory(host='192.168.1.3')
+factory = PiGPIOFactory(host='192.168.0.13')
 
-robot = CamJamKitRobot(pin_factory=factory)
+robot = CamJamKitRobot()
 
 # turn the motors on
 robot.forward()
