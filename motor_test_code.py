@@ -2,9 +2,8 @@
 
 import time
 from gpiozero import CamJamKitRobot
-from gpiozero.pins.pigpio import PiGPIOFactory
 
-factory = PiGPIOFactory(host='192.168.0.13')
+
 
 robot = CamJamKitRobot()
 
