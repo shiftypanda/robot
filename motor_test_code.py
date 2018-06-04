@@ -3,7 +3,7 @@
 import time
 from gpiozero import CamJamKitRobot
 
-
+# IDEA: self.fail('cozmo')
 
 robot = CamJamKitRobot()
 
